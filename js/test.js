@@ -62,7 +62,7 @@ reason = "外出实习"
 //外出地点
 route = "金融城"
 //用户头像 默认随机
-userHead = "https://cdn.jsdelivr.net/gh/Heracle5/gdufs-pass@main/pic/Unknown.jpeg"
+userHead = "https://cdn.jsdelivr.net/gh/Heracle5/gdufs-pass@1.0/pic/Unknown.jpeg"
 //请假类型 事假 病假 实习 科研 出差 回家
 type = "事假"
 //是否离校 1是 0否
@@ -76,7 +76,7 @@ approveName = "李少洁"
 //辅导员学院
 approveAcademy = "金融学院"
 //辅导员头像 默认随机
-approveHead = "https://cdn.jsdelivr.net/gh/Heracle5/gdufs-pass@main/pic/Unknown.jpeg"
+approveHead = "https://cdn.jsdelivr.net/gh/Heracle5/gdufs-pass@1.0/pic/Unknown.jpeg"
 //审批理由
 approveReason = "办完事马上回校，不得在外逗留"
 //审核状态 3拒绝 2通过 1审批中
