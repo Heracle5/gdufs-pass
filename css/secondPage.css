@@ -1,0 +1,81 @@
+body {
+    max-width: 540px;
+    min-width: 320px;
+    margin: 0 auto;
+    font: normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+    color: #000;
+    background: #f4f4f4;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+.title {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #3cb371;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 40px;
+}
+.title p {
+    margin-left: 10px;
+}
+.PicOne {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+.PicOne img {
+    width: 100px;
+    height: 35px;
+}
+.navi_bar{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    color: #00b8b7;
+    /*text-align: center;*/
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 40px;
+}
+.navi_bar a{margin-left: 40px;font-weight: lighter;color: #ffffff;border-radius: 30px;
+    background: #00b8b7;
+    padding: 0px;
+    width: 190px;
+    height: 35px;
+    position: relative;}
+.navi_bar c{margin-left: 0px;font-weight: lighter;color: #ffffff;}
+.navi_bar b{margin-right: 0px;font-weight: lighter;}
+.pos{margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 25px;
+    border: 2px solid #e1dfdf;
+    background: #ffffff;
+    padding: 20px;
+    position: center;
+    width: 415px;
+    height: 170px;
+    text-decoration:none;}
+.fontpos{margin-left: 12px;margin-top:15px;text-decoration:none;}
+.fontpos c{font-weight:lighter;font-size:22px;text-decoration:none;}
+.pos img{margin-left:-5px;margin-top: 15px;width: 40px;
+    height: 100px;float: left;}
+.res a{float:right;font-weight:lighter;font-size:18px;margin-left: 0px;margin-top:16px;position: absolute}
+.onVac img{margin-left:-5px;margin-top: -150px;width: 150px;
+    height: 150px;float: right;}
+.banner img{margin-left:-22px;margin-top: -1px;width: 460px;
+    height: 48px}
+body {
+    max-width: 540px;
+    min-width: 320px;
+    margin: 0 auto;
+    font: normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+    color: #000;
+    background: #eeeef0;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+}

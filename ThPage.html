@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <link rel="stylesheet" href="css/ThPage.css">
+    <style type="text/css">
+        #Main
+        {
+            margin-top: 50px;
+            margin-left: 90px;
+            height: 60px;
+            font-size: 18px;
+            font-weight:bolder;
+        }
+        #Goback
+        {
+            margin-top: -15px;
+            margin-left: 90px;
+            height: 30px;
+            font-size: 18px;
+            font-weight:bolder;
+        }
+        #Cheat_1
+        {
+            margin-top: -157px;
+            margin-left: 380px;
+            height: 30px;
+            font-size: 15px;
+            font-weight:100;
+        }
+        #Cheat_2{margin-top: 62px;
+            margin-left: 380px;
+            height: 30px;
+            font-size: 15px;
+            font-weight:100;}
+    </style>
+    <script type="text/javascript">
+        window.onload=function()
+        {
+            window.requestAnimationFrame(getDate)
+        }
+
+        function getDate()
+        {
+            window.setTimeout(function(){
+                window.requestAnimationFrame(getDate)
+            },1000/2)
+            var d=new Date();
+            var year=d.getFullYear()  //获取年
+            var month=d.getMonth()+1;  //获取月，从 Date 对象返回月份 (0 ~ 11)，故在此处+1
+            var days=d.getDate() //获取日期
+            var day=d.getDate()+1;
+            var Cheat_day=d.getDate()-1;
+            var hour=d.getHours()   //获取小时
+            var minute=d.getMinutes()  //获取分钟
+
+            if(month<10) month="0"+month
+            if(days<10) days="0"+days
+            if(day<10) day="0"+day
+            if(Cheat_day<10) Cheat_day="0"+Cheat_day
+            if(hour<10) hour="0"+hour
+            if(minute<10) minute="0"+minute
+
+
+            var Tools=document.getElementById("Main")
+            var da=year+"-"+month+"-"+days+" "+(hour-4)+":"+minute
+            Tools.innerHTML=da
+
+            var HT=document.getElementById("Goback")
+            var endd=year+"-"+month+"-"+day+" "+"12"+":"+"00"
+            HT.innerHTML=endd
+
+            var Ch_1=document.getElementById("Cheat_1")
+            var chr=month+"."+Cheat_day+" 09."+"30"
+            Ch_1.innerHTML=chr
+
+            var Ch_2=document.getElementById("Cheat_2")
+            var crh=month+"."+Cheat_day+" 09."+"32"
+            Ch_2.innerHTML=crh
+        }
+    </script>
+</head>
+<body>
+<div class="title">
+    <p>我在校园</p>
+    <div class="PicOne">
+        <img src="images/title.jpg" alt="">
+    </div>
+</div>
+<div class="card_One">
+    <img src="images/shishi.jpeg" class="round_icon"  alt="">
+    <a>欧俊虹</a>
+    <b>86601788089716736</b>
+    <c>事假</c>
+    <div class="line">
+    <HR style="position:absolute;align:center;width:80%;SIZE:0.01px;color:#c7c7c7; margin-top: 40px; border-color: #f3f2f2">
+    </div>
+    <d>开始时间:</d>
+    <e>结束时间:</e>
+    <f>是否离校:&nbsp;&nbsp;是</f>
+    <g>外出地点：中山大学附属医院</g>
+    <h>销假地点：北校区</h>
+    <j>紧急联系电话：13642463890</j>
+    <k>请假事由：看牙医</k>
+    <div id="Main"></div>
+    <div id="Goback"></div>
+    <m>
+        <img src="images/Cheat.png" alt=""></m>
+</div>
+<div class="card_Two">
+    <img src="images/bamboo.png" alt="">
+    <a>刘颖&nbsp;&nbsp;（辅导员）</a>
+    <b></b>
+    <c>审批通过：时刻关注疫情动态变化，
+        遵守学校防疫规定，</br>严格遵守学校校园安全。</c>
+    <d>陈静&nbsp;&nbsp;（院级）</d>
+    <f>审批通过</f>
+    <div id="Cheat_1"></div>
+    <div id="Cheat_2"></div>
+</div>
+</body>
+</html>

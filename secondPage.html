@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <link rel="stylesheet" href="css/secondPage.css">
+    <style type="text/css">
+        #Main
+        {
+            margin-top: 60px;
+            margin-left: 25px;
+            height: 50px;
+            font-size: 15px;
+            font-weight:lighter;
+        }
+        #Goback
+        {
+                                  margin-top: -22px;
+                                  margin-left: 15px;
+                                  height: 15px;
+                                  font-size: 15px;
+                                  font-weight:lighter;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload=function()
+        {
+            window.requestAnimationFrame(getDate)
+        }
+
+        function getDate()
+        {
+            window.setTimeout(function(){
+                window.requestAnimationFrame(getDate)
+            },1000/2)
+            var d=new Date();
+            var year=d.getFullYear()  //获取年
+            var month=d.getMonth()+1;  //获取月，从 Date 对象返回月份 (0 ~ 11)，故在此处+1
+            var days=d.getDate() //获取日期
+            var day=d.getDate()+1;
+            var hour=d.getHours()   //获取小时
+            var minute=d.getMinutes()  //获取分钟
+
+            if(month<10) month="0"+month
+            if(days<10) days="0"+days
+            if(days<10) day="0"+day
+            if(hour<10) hour="0"+hour
+            if(minute<10) minute="0"+minute
+
+
+            var Tools=document.getElementById("Main")
+            var da=year+"-"+month+"-"+days+" "+(hour-4)+":"+minute
+            Tools.innerHTML=da
+
+            var HT=document.getElementById("Goback")
+            var endd=year+"-"+month+"-"+(day)+" "+"12"+":"+"00"
+            HT.innerHTML=endd
+        }
+    </script>
+</head>
+<body>
+<div class="title">
+    <p>我在校园</p>
+    <div class="PicOne">
+        <img src="images/title.jpg" alt="">
+    </div>
+</div>
+<div class="navi_bar">
+    <a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp请假记录&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+    <b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp提交请假</b>
+</div>
+<div class="pos"; style="position:relative; z-index:auto;">
+    <div class="fontpos"><c>本人已了解"非必要不离...</c></div>
+        <img src="images/clock.png" alt="">
+    <div class="res"><a>事假</a></div>
+    <div id="Main"></div>
+    <div id="Goback"></div>
+    <div class="onVac"><a href="ThPage.html"><img src="images/vacc.png" alt=""></a></div>
+    <div class="banner"><img src="images/banner.png" alt=""></div>
+</div>
+</body>
+</html>
