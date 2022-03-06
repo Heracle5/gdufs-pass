@@ -42,33 +42,35 @@ body {
     font-weight: lighter;
     line-height: 40px;
 }
-.navi_bar a{margin-left: 40px;font-weight: lighter;color: #ffffff;border-radius: 30px;
+.navi_bar a{margin-left: 8px;font-weight: lighter;color: #ffffff;border-radius: 30px;
     background: #00b8b7;
+    margin-top: 1px;
     padding: 0px;
-    width: 190px;
-    height: 35px;
-    position: relative;}
+    width: 172px;
+    height: 37px;
+    position: absolute;
+text-align: center}
 .navi_bar c{margin-left: 0px;font-weight: lighter;color: #ffffff;}
-.navi_bar b{margin-right: 0px;font-weight: lighter;}
+.navi_bar b{margin-left: 240px;font-weight: lighter;position: absolute}
 .pos{margin-top: 15px;
-    margin-left: 40px;
+    margin-left: 4px;
     border-radius: 25px;
     border: 2px solid #e1dfdf;
     background: #ffffff;
     padding: 20px;
-    position: center;
-    width: 415px;
+    position: absolute;
+    width: 85%;
     height: 170px;
     text-decoration:none;}
-.fontpos{margin-left: 12px;margin-top:15px;text-decoration:none;}
-.fontpos c{font-weight:lighter;font-size:22px;text-decoration:none;}
-.pos img{margin-left:-5px;margin-top: 15px;width: 40px;
-    height: 100px;float: left;}
-.res a{float:right;font-weight:lighter;font-size:18px;margin-left: 0px;margin-top:16px;position: absolute}
-.onVac img{margin-left:-5px;margin-top: -150px;width: 150px;
-    height: 150px;float: right;}
-.banner img{margin-left:-22px;margin-top: -1px;width: 460px;
-    height: 48px}
+.fontpos{margin-left: 12px;position:absolute;margin-top:15px;text-decoration:none;}
+.fontpos c{font-weight:bold;font-size:18px;margin-top:5px;margin-left:-20px;position:relative;text-decoration:none;}
+.pos img{margin-left:-18px;margin-top: 52px;width: 40px;
+    height: 100px;float: left;position:absolute;}
+.res a{float:right;font-weight:lighter;font-size:16px;margin-left: 34px;position:absolute;margin-top:56px;position: absolute}
+.onVac img{margin-left:198px;margin-top: 17px;width: 120px;
+    height: 120px;float: right;position:absolute;}
+.banner img{margin-left:-22px;margin-top: 154px;width: auto;
+    height: 39px;position:absolute;}
 body {
     max-width: 540px;
     min-width: 320px;
