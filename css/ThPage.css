@@ -38,7 +38,7 @@ body {
     background: #ffffff;
     padding: 20px;
 
-    width: auto;
+    width: 476px;
     height: 420px;
 }
 .round_icon {
@@ -133,10 +133,10 @@ color: #2f2f2f
 }
 .card_One m img{
     height: 120px;
-    width: auto;
+    width: 450px;
     margin-top: 170px;
     margin-left: 13px;
-    text-align: center;
+    alignment: center;
 }
 .card_Two{
     margin-top: 12px;
@@ -145,7 +145,7 @@ color: #2f2f2f
     background: #ffffff;
     padding: 20px;
 
-    width: auto;
+    width: 476px;
     height: 150px;
 }
 .card_Two img{
