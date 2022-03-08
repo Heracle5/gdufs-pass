@@ -1,4 +1,3 @@
 # GDUFS_PASS
-## Created by HR Chen
-
-## To my friend JH Ou
+## Created by RenRen
+## To my friend Ou
