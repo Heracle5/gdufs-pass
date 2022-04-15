@@ -1,5 +1,5 @@
 # GDUFS_PASS
-## Created by RenRen
+## Created by Chan
 ## To my friend Ou
 **Warning!**
 -------------------------------------
